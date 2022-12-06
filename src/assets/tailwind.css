@@ -1,0 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.container {
+    margin: 0 auto;
+}
+
+.brand-medium {
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.brand-regular {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+input {
+    padding-left: 13px;
+}
+
+select {
+    padding-left: 13px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(107, 114, 128, 0.75);
+}
+
+.error {
+    color: red;
+    font-size: x-small;
+    font-family: 'Inter'
+}
